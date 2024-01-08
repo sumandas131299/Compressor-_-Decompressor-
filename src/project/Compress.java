@@ -31,7 +31,7 @@ public class Compress {
         
     }
     public static void main(String[] args) throws IOException{
-        File path = new File("C:\\Users\\Suman\\Documents\\NetBeansProjects\\CompressorDecompressor\\100MB.txt");
+        File path = new File("D:\\PROGRAMMING\\Decompressor\\Compressor-_-Decompressor--master\\testFile.txt");
         method(path);
     }
 }

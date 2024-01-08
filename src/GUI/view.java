@@ -8,17 +8,19 @@ import java.awt.event.*;
 import java.io.*;
 import javax.swing.*;
 import project.*;
+import project.Compress;
+import project.Decompress;
 
 /**
  *
  * @author Suman
  */
-public class view extends JFrame implements ActionListener{
+public class View extends JFrame implements ActionListener{
     
     JButton compressButton;
     JButton decompresButton;
     
-    view(){
+    View(){
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setLayout(null);
         
@@ -78,7 +80,7 @@ public class view extends JFrame implements ActionListener{
     } 
     
     public static void main( String[] args ) {
-        view frame = new view();
+        View frame = new View();
         frame.setVisible(true);
     }
 }
